@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0a2ed3d-5f73-4ea0-8ed0-55a1cbd2d5c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PigLatin/pig_latin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PigLatin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PigLatin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0a2ed3d-5f73-4ea0-8ed0-55a1cbd2d5c7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/hangman.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -348,12 +344,12 @@
       <workItem from="1551831823702" duration="8000" />
       <workItem from="1551833581337" duration="346000" />
       <workItem from="1551895044216" duration="1091000" />
-      <workItem from="1552031366332" duration="992000" />
+      <workItem from="1552031366332" duration="995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124857000" />
+    <option name="totallyTimeSpent" value="124860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -656,7 +652,7 @@
     <entry file="file://$PROJECT_DIR$/hangman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
