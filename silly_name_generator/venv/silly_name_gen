@@ -1,0 +1,37 @@
+"""Random Silly Name Generator"""
+import random
+import sys
+import time
+
+
+def main():
+    """Choose name from the first and surname lists. Concatenates two names from surname list to create last name"""
+
+    first_name_list = ("Dobbie", "Nobbie", "Lue", "Karen", "Frank", "Timmy", "Johnny", "Lucinda", "Irrelevant")
+    surname_list = ("Cake", "Soup", "Apple", "Tart", "Gill", "Bloat", "Coat", "Newt", "Toot", "Fruit",
+                    "Banana", "Toast")
+
+    print("Hello and welcome to the Silly Name Generator. Let's get you started with a name.")
+    time.sleep(.5)
+
+    while True:
+        first_name = random.choice(first_name_list)
+        surname = random.choice(surname_list)
+        surname = surname + random.choice(surname_list)
+        # Print the name out using red from sys error colors
+        print(first_name + " " + surname.title() + "\n", file=sys.stderr)
+        time.sleep(.25)
+
+        usr_input = input("Would you like us to make another name? (Press Enter else n to exit): \n")
+        if usr_input.lower() == "n":
+            break
+
+    print("Thank you for using our Silly Name Generator.")
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
